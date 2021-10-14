@@ -1,3 +1,16 @@
+const firebaseConfig = {
+      apiKey: "AIzaSyCxq_6_pV3Xn5gtwz0v-bySQAP_-ZM6KRc",
+      authDomain: "kwitter-e8537.firebaseapp.com",
+      databaseURL: "https://kwitter-e8537-default-rtdb.firebaseio.com",
+      projectId: "kwitter-e8537",
+      storageBucket: "kwitter-e8537.appspot.com",
+      messagingSenderId: "1010266170305",
+      appId: "1:1010266170305:web:62fb6482ca9b8bd096c540"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
 userName=localStorage.getItem("p name");
 document.getElementById("user_name").innerHTML= "Welcome"+"  "+userName+"   "+"!";
 
